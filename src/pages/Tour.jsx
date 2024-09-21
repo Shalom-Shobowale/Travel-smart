@@ -9,7 +9,7 @@ export default function Tour() {
     <div>
       <div
         className="h-[60vh] bg-center bg-cover bg-no-repeat bg-fixed"
-        style={{ backgroundImage: "url(src/assets/testimony.png)" }}
+        style={{ backgroundImage: "url(public/image/testimony.png)" }}
       >
         <header className="d-flex relative z-10">
           <Navbar />
@@ -49,7 +49,7 @@ export default function Tour() {
       <div className="flex flex-col md:flex-row items-center px-10 gap-5 my-10">
         <div className=" md:w-[50%] md:h-[100vh] rounded-s-full">
           <img
-            src="src\assets\feed-back.jpg"
+            src="public/image/feed-back.jpg"
             alt=""
             className="h-full rounded-md"
           />
@@ -149,7 +149,7 @@ export default function Tour() {
           <div className="h-32 w-full flex justify-center items-center  ">
             <div className="h-28 w-28  rounded-full ">
               <img
-                src="src\assets\man2.jpg"
+                src="public/image/man2.jpg"
                 alt=""
                 className="h-28 w-28 rounded-full"
               />

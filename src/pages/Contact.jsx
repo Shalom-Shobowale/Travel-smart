@@ -9,7 +9,7 @@ export default function Contact() {
     <div>
       <div
         className="h-[60vh] bg-center bg-cover bg-no-repeat bg-fixed"
-        style={{ backgroundImage: "url(src/assets/testimony.png)" }}
+        style={{ backgroundImage: "url(public/image/testimony.png)" }}
       >
         <header className="d-flex relative z-10">
           <Navbar />
@@ -147,7 +147,7 @@ export default function Contact() {
           <div className="md:w-[35%]">
             <div className="h-[70vh] bg-green-400">
               <img
-                src="src\assets\asia-best-places-to-visit-dead-sea-israel-city.jpg"
+                src="public/image/asia-best-places-to-visit-dead-sea-israel-city.jpg"
                 alt=""
                 className="h-[70vh]"
               />

@@ -10,7 +10,7 @@ export default function About() {
       <Navbar />
       <div
         className="h-[60vh] bg-center bg-cover bg-no-repeat bg-fixed"
-        style={{ backgroundImage: "url(src/assets/testimony.png)" }}
+        style={{ backgroundImage: "url(public/image/testimony.png)" }}
       >
         <header className="d-flex relative z-10">
           <div className="text-tertiaryColor text-3xl md:hidden open">
@@ -48,15 +48,15 @@ export default function About() {
 
       <div className="flex flex-col md:flex-row md:gap-10 gap-y-20 px-7 md:px-16 py-20">
         <div className="grid grid-cols-3 gap-5 md:w-[50%]">
-          <img src="src\assets\one.png" alt="" />
-          <img src="src\assets\two.png" alt="" />
-          <img src="src\assets\three.png" alt="" />
-          <img src="src\assets\four.png" alt="" />
-          <img src="src\assets\five.png" alt="" />
-          <img src="src\assets\six.png" alt="" />
-          <img src="src\assets\seven.png" alt="" />
-          <img src="src\assets\eight.png" alt="" />
-          <img src="src\assets\nine.png" alt="" />
+          <img src="public/image\one.png" alt="" />
+          <img src="public/image\two.png" alt="" />
+          <img src="public/image\three.png" alt="" />
+          <img src="public/image\four.png" alt="" />
+          <img src="public/image\five.png" alt="" />
+          <img src="public/image\six.png" alt="" />
+          <img src="public/image\seven.png" alt="" />
+          <img src="public/image\eight.png" alt="" />
+          <img src="public/image\nine.png" alt="" />
         </div>
         <div className="md:w-[50%] h-[60vh] flex flex-col justify-center">
           <h1 className="text-4xl text-pretty font-semibold">
@@ -158,7 +158,7 @@ export default function About() {
           <div className="md:w-[32%] flex flex-col items-center justify-center">
             <div className="w-28 h-28 rounded-full bg-green-500 my-4">
               <img
-                src="src\assets\man.jpg"
+                src="public/image/man.jpg"
                 alt=""
                 className="w-28 h-28 rounded-full bg-green-500"
               />
@@ -184,7 +184,7 @@ export default function About() {
           <div className="md:w-[32%] flex flex-col items-center justify-center">
             <div className="w-28 h-28 rounded-full bg-green-500 my-4">
               <img
-                src="src\assets\woman.jpg"
+                src="public\image\woman.jpg"
                 alt=""
                 className="w-28 h-28 rounded-full bg-green-500"
               />
@@ -215,7 +215,7 @@ export default function About() {
             </div>
             <div className="w-28 h-28 rounded-full bg-green-500 my-4">
               <img
-                src="src\assets\man2.jpg"
+                src="public/image/man2.jpg"
                 alt=""
                 className="w-28 h-28 rounded-full bg-green-500"
               />

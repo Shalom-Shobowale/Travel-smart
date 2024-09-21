@@ -15,7 +15,7 @@
   },
   {
     "id": 2,
-    "image": "src/assets/CopperCanyon,Chihuahua,Mexico.jpg",
+    "image": "public/image/CopperCanyon,Chihuahua,Mexico.jpg",
     "video": "https://videos.pexels.com/video-files/3224903/3224903-hd_1920_1080_24fps.mp4",
     "Country": "South Africa",
     "description": "Safari adventure in Kruger National Park",
@@ -33,7 +33,7 @@
     "Activities": ["Historical tour", "Archaeological exploration"],
     "Tour": "Pyramids of Giza Tour",
     "Popularity": 9.5,
-    "image": "src/assets/dusit-thani-lakeview.jpg",
+    "image": "public/image/dusit-thani-lakeview.jpg",
     "video": "",
     "price": 5000000,
     "duration": "7 days",
@@ -55,7 +55,7 @@
   },
   {
     "id": 5,
-    "image": "src/assets/Lagos Continental Hotel.jpg",
+    "image": "public/image/Lagos Continental Hotel.jpg",
     "video": "",
     "popularity": 12,
     "price": 22000000,
@@ -95,7 +95,7 @@
   },
   {
     "id": 8,
-    "image": "src/assets/barcelona.jpeg",
+    "image": "public/image/barcelona.jpeg",
     "video": "",
     "popularity": 12,
     "duration": "10 days",
@@ -109,7 +109,7 @@
   },
   {
     "id": 9,
-    "image": "src/assets/Eiffel tower.jpg",
+    "image": "public/image/Eiffel tower.jpg",
     "video": "",
     "popularity": 12,
     "duration": "12 days",

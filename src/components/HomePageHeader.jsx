@@ -34,7 +34,7 @@ function HomePageHeader() {
     <>
       <div
         className="h-[97vh] bg-center bg-cover bg-no-repeat bg-fixed"
-        style={{ backgroundImage: "url(src/assets/testimony.png)" }}
+        style={{ backgroundImage: "url(public/image/testimony.png)" }}
       >
         <Navbar />
         <div className="flex flex-col justify-center items-center h-full">
@@ -57,7 +57,7 @@ function HomePageHeader() {
           <div className="bg-secondColor rounded-md shadow-lg">
             <div className="">
               <img
-                src="src/assets/CopperCanyon,Chihuahua,Mexico.jpg"
+                src="public/image/CopperCanyon,Chihuahua,Mexico.jpg"
                 alt=""
                 className="rounded-t-md w-full"
               />
@@ -81,7 +81,7 @@ function HomePageHeader() {
             <div className="bg-secondColor rounded-md shadow-lg">
               <div className="">
                 <img
-                  src="src/assets/australia-new-south-wales-sydney-bondi-beach.jpg"
+                  src="public/image/australia-new-south-wales-sydney-bondi-beach.jpg"
                   alt=""
                   className="rounded-t-md w-full"
                 />
@@ -105,7 +105,7 @@ function HomePageHeader() {
           <div className="bg-secondColor rounded-md shadow-lg">
             <div className="">
               <img
-                src="src/assets/asia-best-places-to-visit-mount-fuji-japan.jpg"
+                src="public/image/asia-best-places-to-visit-mount-fuji-japan.jpg"
                 alt=""
                 className="rounded-t-md w-full"
               />
@@ -130,7 +130,7 @@ function HomePageHeader() {
           <div className="bg-secondColor rounded-md shadow-lg">
             <div className="">
               <img
-                src="src/assets/asia-best-places-to-visit-jaipur-india.jpg"
+                src="public/image/asia-best-places-to-visit-jaipur-india.jpg"
                 alt=""
                 className="rounded-t-md w-full"
               />
@@ -153,7 +153,7 @@ function HomePageHeader() {
           <div className="bg-secondColor rounded-md shadow-lg">
             <div className="">
               <img
-                src="src/assets/cape-town-south-africa.jpg"
+                src="public/image/cape-town-south-africa.jpg"
                 alt=""
                 className="rounded-t-md w-full"
               />
@@ -176,7 +176,7 @@ function HomePageHeader() {
           <div className="bg-secondColor rounded-md shadow-lg">
             <div className="">
               <img
-                src="src/assets/australia-victoria-melbourne.jpg"
+                src="public/image/australia-victoria-melbourne.jpg"
                 alt=""
                 className="rounded-t-md w-full"
               />
@@ -433,7 +433,7 @@ function HomePageHeader() {
 
       <div
         className="px-5 bg-no-repeat bg-cover py-10 bg-fixed"
-        style={{ backgroundImage: "url(src/assets/landing.jpg)" }}
+        style={{ backgroundImage: "url(public/image/landing.jpg)" }}
       >
         <h1 className="text-4xl font-semibold text-center mb-5 text-secondColor">
           Why SunTravel
@@ -441,7 +441,7 @@ function HomePageHeader() {
         <div className="flex md:flex-row flex-wrap flex-col gap-5 justify-center items-center">
           <div className="flex items-center justify-center gap-4 bg-secondColor shadow-lg md:w-[30%] rounded-md p-4">
             <div className="bg-tertiaryColor h-12 w-12 rounded-full flex justify-center items-center">
-              <img src="src/assets/icon1.png" alt="" />
+              <img src="public/image/icon1.png" alt="" />
             </div>
             <div className="md:w-[80%]">
               <h1 className="font-bold">Personalized matching</h1>
@@ -453,7 +453,7 @@ function HomePageHeader() {
           </div>
           <div className="flex items-center justify-center gap-4 bg-secondColor shadow-lg md:w-[30%] rounded-md p-4">
             <div className="bg-tertiaryColor h-12 w-12 rounded-full flex justify-center items-center">
-              <img src="src/assets/icon2.png" alt="" />
+              <img src="public/image/icon2.png" alt="" />
             </div>
             <div className="md:w-[80%]">
               <h1 className="font-bold">Personalized matching</h1>
@@ -465,7 +465,7 @@ function HomePageHeader() {
           </div>
           <div className="flex items-center justify-center gap-4 bg-secondColor shadow-lg md:w-[30%] rounded-md p-4">
             <div className="bg-tertiaryColor h-12 w-12 rounded-full flex justify-center items-center">
-              <img src="src/assets/icon3.png" alt="" />
+              <img src="public/image/icon3.png" alt="" />
             </div>
             <div className="md:w-[80%]">
               <h1 className="font-bold">Personalized matching</h1>
@@ -477,7 +477,7 @@ function HomePageHeader() {
           </div>
           <div className="flex items-center justify-center gap-4 bg-secondColor shadow-lg md:w-[30%] rounded-md p-4">
             <div className="bg-tertiaryColor h-12 w-12 rounded-full flex justify-center items-center">
-              <img src="src/assets/icon4.png" alt="" />
+              <img src="public/image/icon4.png" alt="" />
             </div>
             <div className="md:w-[80%]">
               <h1 className="font-bold">Personalized matching</h1>
@@ -489,7 +489,7 @@ function HomePageHeader() {
           </div>
           <div className="flex items-center justify-center gap-4 bg-secondColor shadow-lg md:w-[30%] rounded-md p-4">
             <div className="bg-tertiaryColor h-12 w-12 rounded-full flex justify-center items-center">
-              <img src="src/assets/icon5.png" alt="" />
+              <img src="public/image/icon5.png" alt="" />
             </div>
             <div className="md:w-[80%]">
               <h1 className="font-bold">Personalized matching</h1>
@@ -501,7 +501,7 @@ function HomePageHeader() {
           </div>
           <div className="flex items-center justify-center gap-4 bg-secondColor shadow-lg md:w-[30%] rounded-md p-4">
             <div className="bg-tertiaryColor h-12 w-12 rounded-full flex justify-center items-center">
-              <img src="src/assets/icon6.png" alt="" />
+              <img src="public/image/icon6.png" alt="" />
             </div>
             <div className="md:w-[80%]">
               <h1 className="font-bold">Personalized matching</h1>
@@ -516,7 +516,7 @@ function HomePageHeader() {
 
       <div className="flex flex-col md:flex-row items-center px-5 md:px-16 gap-5 my-10">
         <div className=" md:w-[50%] bg-blue-400 h-[100vh] rounded-2xl">
-          <img src="src\assets\antartica.jpeg" alt="" className="h-full rounded-2xl" />
+          <img src="public\image\antartica.jpeg" alt="" className="h-full rounded-2xl" />
         </div>
         <form
           action="https://formsubmit.co/523932e3b9d23c8a2ef0b4d76d9b1f5d "

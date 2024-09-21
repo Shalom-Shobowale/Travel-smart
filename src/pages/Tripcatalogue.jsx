@@ -34,7 +34,7 @@ export default function Tripcatalogue() {
     <div>
       <div
         className="h-[60vh] bg-center bg-cover bg-no-repeat bg-fixed"
-        style={{ backgroundImage: "url(src/assets/testimony.png)" }}
+        style={{ backgroundImage: "url(public/image/testimony.png)" }}
       >
         <header className="d-flex relative z-10">
           <Navbar />
@@ -78,7 +78,7 @@ export default function Tripcatalogue() {
             <form className="grid grid-rows-3">
             <div className="flex gap-2 relative my-3">
                 <img
-                  src="src/assets/placeholder1.png"
+                  src="public/image/placeholder1.png"
                   alt=""
                   className="absolute top-3 left-3"
                 />
@@ -93,7 +93,7 @@ export default function Tripcatalogue() {
               </div>
               <div className="flex gap-2 relative my-3">
                 <img
-                  src="src/assets/placehold2.png"
+                  src="public/image/placehold2.png"
                   alt=""
                   className="absolute top-3 left-3"
                 />
@@ -108,7 +108,7 @@ export default function Tripcatalogue() {
               </div>
               <div className="flex gap-2 relative my-3">
                 <img
-                  src="src/assets/placehold2.png"
+                  src="publc/image/placehold2.png"
                   alt=""
                   className="absolute top-3 left-3"
                 />
