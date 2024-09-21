@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Tripcatalogue from "./pages/Tripcatalogue";
 import Tour from "./pages/Tour";
+import Site from "./pages/Site";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/tour" element={<Tour />} />
         <Route path="/trip-catalogue" element={<Tripcatalogue />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/site" element={<Site />} />
       </Routes>
     </BrowserRouter>
   );

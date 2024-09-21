@@ -1,6 +1,7 @@
 import { faFacebookF, faLinkedin, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons/faTwitter";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { NavLink } from "react-router-dom";
 function Footer() {
   return (
     <div className="bg-tertiaryColor flex flex-col md:flex-row gap-6 px-10 py-10">
@@ -49,11 +50,13 @@ function Footer() {
       <div className="md:w-[20%] text-secondColor">
         <h1 className="font-bold text-xl">Site map</h1>
         <div>
-          <li>Home</li>
-          <li>About</li>
-          <li>Tour Categories</li>
-          <li>Tour Review</li>
-          <li>Contact Us</li>
+        <li className="font-semibold my-3"><NavLink to="/">Home</NavLink></li>
+                    <li className="font-semibold my-3"><NavLink to="/about">About</NavLink></li>
+                    <li className="font-semibold my-3">
+                    <NavLink to="/tour">Tour Review</NavLink>
+                    </li>
+                    <li className="font-semibold my-3"> <NavLink to="/trip-catalogue">Trip Catalogue</NavLink></li>
+                    <li className="font-semibold my-3"><NavLink to="/contact">Contact</NavLink></li>
         </div>
       </div>
       <div className="md:w-[20%] text-secondColor">
