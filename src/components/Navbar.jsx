@@ -35,7 +35,7 @@ function Navbar() {
         <NavLink to="/">
           <div className="font-bold text-3xl">
             <h1 className="italic">
-              <span className="text-primaryColor">Smart</span>Travel
+            Travel<span className="text-primaryColor">Smart</span>
             </h1>
           </div>
         </NavLink>

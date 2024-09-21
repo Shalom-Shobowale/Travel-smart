@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import files from "../files.json"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLessThan } from "@fortawesome/free-solid-svg-icons";
@@ -51,9 +52,11 @@ export default function Tripcatalogue() {
             </h1>
             <div className="flex items-center gap-2 mt-4">
               <div>
-                <a href="index.html" className="text-[16px] text-secondColor">
-                  Home
-                </a>
+                <NavLink to="/">
+                  <p className="text-[16px] text-secondColor">
+                    Home
+                  </p>
+                </NavLink>
               </div>
               <div className="text-[16px] text-secondColor flex items-center gap-2">
                 <span>

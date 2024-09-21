@@ -1,4 +1,5 @@
 import Footer from "../components/Footer";
+import { NavLink } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAddressBook, faClock, faEnvelope, faLessThan, faLocation, faPhone } from "@fortawesome/free-solid-svg-icons";
@@ -26,9 +27,11 @@ export default function Contact() {
             </h1>
             <div className="flex items-center gap-2">
               <div>
-                <a href="index.html" className="text-[16px] text-secondColor">
-                  Home
-                </a>
+                <NavLink to="/">
+                  <p className="text-[16px] text-secondColor">
+                    Home
+                  </p>
+                </NavLink>
               </div>
               <div className="text-[16px] text-secondColor flex items-center gap-2">
                 <span>

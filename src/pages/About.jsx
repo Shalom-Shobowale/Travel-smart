@@ -27,9 +27,11 @@ export default function About() {
             </h1>
             <div className="flex items-center gap-2">
               <div>
-                <a href="index.html" className="text-[16px] text-secondColor">
-                  Home
-                </a>
+                <NavLink to="/">
+                  <p className="text-[16px] text-secondColor">
+                    Home
+                  </p>
+                </NavLink>
               </div>
               <div className="text-[16px] text-secondColor flex items-center gap-2">
                 <span>

@@ -1,4 +1,5 @@
 import Footer from "../components/Footer";
+import { NavLink } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLessThan } from "@fortawesome/free-solid-svg-icons";
@@ -12,61 +13,6 @@ export default function Tour() {
       >
         <header className="d-flex relative z-10">
           <Navbar />
-          {/* <nav class="w-[90%] p-5 border-b-2 scroll-nav">
-            <div class="flex justify-between items-center">
-              <div>
-                <div class="font-bold text-3xl">
-                  <i>
-                    Travel<span class="text-primaryColor">Smart</span>
-                  </i>
-                </div>
-              </div>
-              <div class="hidden menu absolute bg-tertiaryColor md:bg-inherit md:min-h-fit min-h-[40vh] left-0 top-[105%] w-full md:static md:flex items-center justify-center md:w-auto p-10 md:p-0 z-10">
-                <ul class="flex-col md:flex-row flex gap-7 font-bold text-secondColor">
-                  <li>
-                    <a
-                      href="index.html"
-                      class="hover:text-primaryColor hover:border-b-4 hover:border-primaryColor text-primaryColor"
-                    >
-                      Home
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="About.html"
-                      class="scroll-nav hover:text-primaryColor hover:border-b-4 hover:border-primaryColor"
-                    >
-                      About
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="Trip.html"
-                      class="scroll-nav hover:text-primaryColor hover:border-b-4 hover:border-primaryColor"
-                    >
-                      Trip Catalogue
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="tour.html"
-                      class="scroll-nav hover:text-primaryColor hover:border-b-4 hover:border-primaryColor text-primaryColor"
-                    >
-                      Tour Review
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="contact.html"
-                      class="scroll-nav hover:text-primaryColor hover:border-b-4 hover:border-primaryColor"
-                    >
-                      Contact Us
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav> */}
           <div className="text-tertiaryColor text-3xl md:hidden open">
             <i className="fa-solid fa-bars"></i>
           </div>
@@ -81,9 +27,11 @@ export default function Tour() {
             </h1>
             <div className="flex items-center gap-2">
               <div>
-                <a href="index.html" className="text-[16px] text-secondColor">
-                  Home
-                </a>
+                <NavLink to="/">
+                  <p className="text-[16px] text-secondColor">
+                    Home
+                  </p>
+                </NavLink>
               </div>
               <div className="text-[16px] text-secondColor flex items-center gap-2">
                 <span>
