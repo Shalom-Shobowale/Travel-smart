@@ -211,13 +211,13 @@ export default function Tour() {
             <textarea
               id="reviewText"
               placeholder="Write your review..."
-              className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+              className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-primaryColor"
               rows="4"
             ></textarea>
             <p id="ratingMessage" className="mt-2 text-gray-600"></p>
             <button
               id="submitReview"
-              className="mt-4 w-full bg-blue-500 text-white font-semibold py-2 rounded-md hover:bg-blue-600"
+              className="mt-4 w-full bg-primaryColor text-white font-semibold py-2 rounded-md hover:bg-primaryColor"
             >
               Submit Review
             </button>

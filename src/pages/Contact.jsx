@@ -2,7 +2,7 @@ import Footer from "../components/Footer";
 import { NavLink } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAddressBook, faClock, faEnvelope, faLessThan, faLocation, faPhone } from "@fortawesome/free-solid-svg-icons";
+import {  faClock, faEnvelope, faLessThan, faLocation, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 export default function Contact() {
   return (
@@ -98,7 +98,8 @@ export default function Contact() {
 
       <div className="flex justify-center gap-5 mb-14">
         <div className="md:w-[85%] flex md:flex-row flex-col gap-6">
-          <form className="bg-bgColor md:px-8 rounded-sm shadow-md w-[100%] md:w-[65%] flex items-center justify-center">
+          <form action="https://formsubmit.co/523932e3b9d23c8a2ef0b4d76d9b1f5d "
+          method="POST" className="bg-bgColor md:px-8 rounded-sm shadow-md w-[100%] md:w-[65%] flex items-center justify-center">
             <div>
               <h1 className="mb-5 text-4xl font-semibold">Get In touch</h1>
               <div className="flex md:flex-row flex-col gap-5">
@@ -112,6 +113,7 @@ export default function Contact() {
                   name="number"
                   id="number "
                   placeholder="Number"
+                  required
                   className=" md:w-64 border-b border-2 focus:outline-none focus:ring-0 p-2"
                 />
               </div>
@@ -121,6 +123,7 @@ export default function Contact() {
                   name="email"
                   id="main"
                   placeholder="E-mail"
+                  required
                   className="mb-4 border-b border-2 focus:outline-none focus:ring-0 p-3"
                 />
                 <textarea
@@ -129,10 +132,11 @@ export default function Contact() {
                   cols="10"
                   rows="5"
                   placeholder="Massages"
+                  required
                   className="focus:outline-none border-b border-2 focus:ring-0 p-3"
                 ></textarea>
               </div>
-              <button className="bg-primaryColor py-3 px-10 rounded-sm text-secondColor font-semibold mb-3">
+              <button type="submit" className="bg-primaryColor py-3 px-10 rounded-sm text-secondColor font-semibold mb-3">
                 Send Message
               </button>
               <p className="text-primaryColor hover:underline hover:text-red-600">
@@ -152,18 +156,16 @@ export default function Contact() {
         </div>
       </div>
 
-      {/* <div className="flex justify-center mb-14" id="map">
-        <div className="w-[85%]">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.4982302592857!2d3.2353293739951714!3d6.708883693286827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b995b41b7dd6d%3A0xb6c08985374e0e09!2sAptech%20Computer%20Education%20-Sango%20Ota!5e0!3m2!1sen!2sng!4v1726526524523!5m2!1sen!2sng"
-            style="border:0;"
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            className="w-full h-[65vh]"
-          ></iframe>
-        </div>
-      </div> */}
+      <div className="my-16">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.4982302592857!2d3.2353293739951714!3d6.708883693286827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b995b41b7dd6d%3A0xb6c08985374e0e09!2sAptech%20Computer%20Education%20-Sango%20Ota!5e0!3m2!1sen!2sng!4v1726526524523!5m2!1sen!2sng"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          className="w-full h-[65vh]"
+        ></iframe>
+      </div>
 
       <Footer />
     </div>
