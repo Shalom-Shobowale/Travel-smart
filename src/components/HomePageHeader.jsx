@@ -395,7 +395,7 @@ function HomePageHeader() {
                 Alphabetical order
               </button>
             </div>
-          <div className="container grid md:grid-cols-3 gap-y-7 w-[90%] gap-8 h-[140vh] overflow-y-scroll">
+          <div className="container grid md:grid-cols-3 gap-y-7 w-[90%] gap-8">
             {items
               .filter((item) => 
                 search.toLowerCase() === "" || 

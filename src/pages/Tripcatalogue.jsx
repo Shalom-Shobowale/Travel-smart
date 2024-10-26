@@ -72,7 +72,7 @@ export default function Tripcatalogue() {
       </div>
 
       <div className="flex flex-col md:flex-row justify-center gap-10 gap-y-10 md:pl-10 my-20">
-        <div className="md:w-[25%] rounded-md h-[110vh] shadow-2xl flex justify-center flex-col">
+        <div className="md:w-[25%] rounded-md h-[120vh] shadow-2xl flex justify-center flex-col">
           <h1 className="font-bold px-12 my-5">S E A R C H</h1>
           <div className="flex flex-col justify-center items-center border-b">
             <form className="grid grid-rows-3">
@@ -167,7 +167,7 @@ export default function Tripcatalogue() {
                       <a href="">History & Culture (776)</a>
                     </p>
                   </div>
-                  <div className="flex gap-3">
+                  <div className="flex gap-3 my-3">
                     <input
                       type="radio"
                       name="tour"
@@ -191,7 +191,7 @@ export default function Tripcatalogue() {
                       <a href="">Adventure & Outdoor (74)</a>
                     </p>
                   </div>
-                  <div className="flex gap-3">
+                  <div className="flex gap-3 my-3">
                     <input
                       type="radio"
                       name="tour"
