@@ -13,7 +13,7 @@ export default function Contact() {
       >
         <Navbar />
         <div className="flex flex-col justify-center items-center h-full">
-          <div className="w-[80%] py-28">
+          <div className="md:w-[80%] py-28">
             <h1 className="text-5xl font-semibold text-secondColor">
               Contact Us
             </h1>
@@ -91,14 +91,14 @@ export default function Contact() {
       <div className="flex justify-center gap-5 mb-14">
         <div className="md:w-[85%] flex md:flex-row flex-col gap-6">
           <form action="https://formsubmit.co/523932e3b9d23c8a2ef0b4d76d9b1f5d "
-          method="POST" className="bg-bgColor md:px-8 rounded-sm shadow-md w-[100%] md:w-[65%] flex items-center justify-center">
+          method="POST" className="md:px-8 rounded-sm shadow-md w-full md:w-[65%] px-5 md:pb-0 pb-5">
             <div>
               <h1 className="mb-5 text-4xl font-semibold">Get In touch</h1>
               <div className="flex md:flex-row flex-col gap-5">
                 <input
                   type="text"
                   placeholder="Name"
-                  className="md:w-64 border-b border-2 focus:outline-none focus:ring-0 p-3"
+                  className="md:w-[50%] border-b border-2 focus:outline-none focus:ring-0 p-3"
                 />
                 <input
                   type="tel"
@@ -106,7 +106,7 @@ export default function Contact() {
                   id="number "
                   placeholder="Number"
                   required
-                  className=" md:w-64 border-b border-2 focus:outline-none focus:ring-0 p-2"
+                  className=" md:w-[50%] border-b border-2 focus:outline-none focus:ring-0 p-2"
                 />
               </div>
               <div className="flex flex-col my-3">
@@ -119,7 +119,7 @@ export default function Contact() {
                   className="mb-4 border-b border-2 focus:outline-none focus:ring-0 p-3"
                 />
                 <textarea
-                  name=""
+                  name="message"
                   id=""
                   cols="10"
                   rows="5"
@@ -132,12 +132,12 @@ export default function Contact() {
                 Send Message
               </button>
               <p className="text-primaryColor hover:underline hover:text-red-600">
-                <a href="">Do you have a query?</a>
+                <a href="" className="md:text-base text-xl">Do you have a query?</a>
               </p>
             </div>
           </form>
           <div className="md:w-[35%]">
-            <div className="h-[70vh] bg-green-400">
+            <div className="h-[70vh]">
               <img
                 src="asia-best-places-to-visit-dead-sea-israel-city.jpg"
                 alt=""

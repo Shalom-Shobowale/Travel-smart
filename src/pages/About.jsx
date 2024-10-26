@@ -102,7 +102,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="md:w-[30%] rounded-tl-2xl rounded-br-2xl p-5 shadow-2xl flex items-center">
+        <div className="md:w-[30%] rounded-tl-2xl rounded-br-2xl p-5 shadow-2xl flex items-center md:my-0 my-12">
           <div>
             <h1 className="font-semibold text-xl text-center">Our Value</h1>
             <div className="text-sm font-medium text-pretty my-3">
@@ -148,11 +148,11 @@ export default function About() {
         </div>
         <div className="flex flex-col md:flex-row justify-around px-10">
           <div className="md:w-[32%] flex flex-col items-center justify-center">
-            <div className="w-28 h-28 rounded-full bg-green-500 my-4">
+            <div className="w-28 h-28 rounded-full my-4">
               <img
                 src="man.jpg"
                 alt=""
-                className="w-28 h-28 rounded-full bg-green-500"
+                className="w-28 h-28 rounded-full"
               />
             </div>
             <div className="flex flex-col items-center">
@@ -173,15 +173,15 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="md:w-[32%] flex flex-col items-center justify-center">
-            <div className="w-28 h-28 rounded-full bg-green-500 my-4">
+          <div className="md:w-[32%] flex flex-col items-center justify-center my-12 md:my-0">
+            <div className="w-28 h-28 rounded-full my-4 ">
               <img
                 src="woman.jpg"
                 alt=""
-                className="w-28 h-28 rounded-full bg-green-500"
+                className="w-28 h-28 rounded-full"
               />
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center ">
               <h1 className="font-semibold">Mary Tessy</h1>
               <p className="text-sm">
                 <i>SENIOR TRAVEL AGENT</i>
@@ -205,11 +205,11 @@ export default function About() {
                 VIEW FULL INFO
               </button>
             </div>
-            <div className="w-28 h-28 rounded-full bg-green-500 my-4">
+            <div className="w-28 h-28 rounded-full my-4">
               <img
                 src="man2.jpg"
                 alt=""
-                className="w-28 h-28 rounded-full bg-green-500"
+                className="w-28 h-28 rounded-full"
               />
             </div>
             <div className="flex flex-col items-center">

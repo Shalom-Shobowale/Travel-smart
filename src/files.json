@@ -29,7 +29,7 @@
   {
     "id": 3,
     "Country": "Egypt",
-    "description": "Unravel the mysteries of the Pyramids of Giza",
+    "description": "Unravel the mysteries of the Pyramids",
     "Activities": ["Historical tour", "Archaeological exploration"],
     "Tour": "Pyramids of Giza Tour",
     "Popularity": 9.5,
@@ -86,7 +86,7 @@
     "price": 200000000,
     "duration": "9 days",
     "Country": "Ethiopia",
-    "description": "Explore the rock-hewn churches of Lalibela",
+    "description": "Explore the rock-hewn churches",
     "Activities": ["Historical tour", "Cultural experience"],
     "Tour": "Lalibela Churches Tour",
     "Popularity": 8.5,

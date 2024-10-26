@@ -136,7 +136,7 @@ export default function Tour() {
         </form>
       </div>
 
-      <div className="grid grid-cols-12 md:p-10 gap-5">
+      <div className="grid grid-cols-12 md:p-10 gap-5 md:mx-0 mx-5">
         <div className="md:col-span-6 col-span-12 justify-center bg-slate-200 shadow-slate-300 rounded-3xl  bg-center bg-no-repeat bg-cover ">
           <div className="h-32 w-full flex justify-center items-center  ">
             <div className="h-28 w-28  rounded-full ">
