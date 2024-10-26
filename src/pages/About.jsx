@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLessThan } from "@fortawesome/free-solid-svg-icons";
+// import img1 from "one.png";
 
 export default function About() {
   return (
@@ -10,7 +11,7 @@ export default function About() {
       <Navbar />
       <div
         className="h-[60vh] bg-center bg-cover bg-no-repeat bg-fixed"
-        style={{ backgroundImage: "url(public/image/testimony.png)" }}
+        style={{ backgroundImage: "url(testimony.png)" }}
       >
         <header className="d-flex relative z-10">
           <div className="text-tertiaryColor text-3xl md:hidden open">
@@ -48,15 +49,15 @@ export default function About() {
 
       <div className="flex flex-col md:flex-row md:gap-10 gap-y-20 px-7 md:px-16 py-20">
         <div className="grid grid-cols-3 gap-5 md:w-[50%]">
-          <img src="public/image\one.png" alt="" />
-          <img src="public/image\two.png" alt="" />
-          <img src="public/image\three.png" alt="" />
-          <img src="public/image\four.png" alt="" />
-          <img src="public/image\five.png" alt="" />
-          <img src="public/image\six.png" alt="" />
-          <img src="public/image\seven.png" alt="" />
-          <img src="public/image\eight.png" alt="" />
-          <img src="public/image\nine.png" alt="" />
+          <img src="one.png" alt="" />
+          <img src="two.png" alt="" />
+          <img src="three.png" alt="" />
+          <img src="four.png" alt="" />
+          <img src="five.png" alt="" />
+          <img src="six.png" alt="" />
+          <img src="seven.png" alt="" />
+          <img src="eight.png" alt="" />
+          <img src="nine.png" alt="" />
         </div>
         <div className="md:w-[50%] h-[60vh] flex flex-col justify-center">
           <h1 className="text-4xl text-pretty font-semibold">
@@ -158,7 +159,7 @@ export default function About() {
           <div className="md:w-[32%] flex flex-col items-center justify-center">
             <div className="w-28 h-28 rounded-full bg-green-500 my-4">
               <img
-                src="public/image/man.jpg"
+                src="man.jpg"
                 alt=""
                 className="w-28 h-28 rounded-full bg-green-500"
               />
@@ -184,7 +185,7 @@ export default function About() {
           <div className="md:w-[32%] flex flex-col items-center justify-center">
             <div className="w-28 h-28 rounded-full bg-green-500 my-4">
               <img
-                src="public\image\woman.jpg"
+                src="woman.jpg"
                 alt=""
                 className="w-28 h-28 rounded-full bg-green-500"
               />
@@ -215,7 +216,7 @@ export default function About() {
             </div>
             <div className="w-28 h-28 rounded-full bg-green-500 my-4">
               <img
-                src="public/image/man2.jpg"
+                src="man2.jpg"
                 alt=""
                 className="w-28 h-28 rounded-full bg-green-500"
               />

@@ -4,7 +4,7 @@ function Site (){
     return(
         <>
 
-        <div className="h-[60vh] mb-8" style={{backgroundImage:URL("public/image/Alamein faHotel.jpg")}}>
+        <div className="h-[60vh] mb-8" style={{backgroundImage:URL("/image/Alamein faHotel.jpg")}}>
             <div className="w-[80%] py-28">
                 <h1 className="text-5xl font-semibold text-secondColor">
                     About Us
