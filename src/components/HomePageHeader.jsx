@@ -204,12 +204,12 @@ function HomePageHeader() {
         </NavLink>
       </div>
 
-      <h1 className="text-center text-4xl text-primaryColor font-semibold md:mb-10">
+      <h1 className="text-center text-4xl font-semibold md:mb-10">
         All Tours For You
       </h1>
 
       
-      <div className="flex flex-col md:flex-row justify-center gap-10 gap-y-10 md:pl-10 my-20">
+      <div className="flex flex-col md:flex-row justify-center gap-10 gap-y-10 md:pl-10">
         <div className="md:w-[25%] rounded-md h-[110vh] shadow-2xl flex justify-center flex-col">
           <h1 className="font-bold px-12 my-5">S E A R C H</h1>
           <div className="flex flex-col justify-center items-center border-b">
