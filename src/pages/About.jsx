@@ -3,7 +3,6 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLessThan } from "@fortawesome/free-solid-svg-icons";
-// import img1 from "one.png";
 
 export default function About() {
   return (
@@ -13,14 +12,6 @@ export default function About() {
         className="h-[60vh] bg-center bg-cover bg-no-repeat bg-fixed"
         style={{ backgroundImage: "url(testimony.png)" }}
       >
-        <header className="d-flex relative z-10">
-          <div className="text-tertiaryColor text-3xl md:hidden open">
-            <i className="fa-solid fa-bars"></i>
-          </div>
-          <div className="text-tertiaryColor text-3xl hidden close">
-            <i className="fa-solid fa-x"></i>
-          </div>
-        </header>
         <div className="flex flex-col justify-center items-center h-full">
           <div className="w-[80%] py-28">
             <h1 className="text-5xl font-semibold text-secondColor">

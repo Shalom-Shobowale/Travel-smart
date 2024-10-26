@@ -2,13 +2,13 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import files from "../files.json"
+import files from "../files.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLessThan } from "@fortawesome/free-solid-svg-icons";
 import { faNairaSign } from "@fortawesome/free-solid-svg-icons";
 export default function Tripcatalogue() {
   const [items, setItems] = useState(files);
-  const [search, setSearch] = useState("")
+  const [search, setSearch] = useState("");
   const filterItems = (cartItems) => {
     const updateItems = files.filter((curItem) => {
       return curItem.Category === cartItems;
@@ -16,16 +16,16 @@ export default function Tripcatalogue() {
     setItems(updateItems);
   };
 
-  const [sortType, setSortType] = useState('');
+  const [sortType, setSortType] = useState("");
   const handleSort = (type) => {
     setSortType(type);
-    if (type === 'price') {
+    if (type === "price") {
       const sortedItems = files.sort((a, b) => a.price - b.price);
       setItems(sortedItems);
-    } else if (type === 'popularity') {
+    } else if (type === "popularity") {
       const sortedItems = files.sort((a, b) => b.Popularity - a.Popularity);
       setItems(sortedItems);
-    } else if (type === 'alphabetical') {
+    } else if (type === "alphabetical") {
       const sortedItems = files.sort((a, b) => a.Tour.localeCompare(b.Tour));
       setItems(sortedItems);
     }
@@ -36,15 +36,7 @@ export default function Tripcatalogue() {
         className="h-[60vh] bg-center bg-cover bg-no-repeat bg-fixed"
         style={{ backgroundImage: "url(testimony.png)" }}
       >
-        <header className="d-flex relative z-10">
-          <Navbar />
-          <div className="text-tertiaryColor text-3xl md:hidden open">
-            <i className="fa-solid fa-bars"></i>
-          </div>
-          <div className="text-tertiaryColor text-3xl hidden close">
-            <i className="fa-solid fa-x"></i>
-          </div>
-        </header>
+        <Navbar />
         <div className="flex flex-col justify-center items-center h-full">
           <div className="w-[80%] py-28">
             <h1 className="text-5xl font-semibold text-secondColor">
@@ -53,16 +45,12 @@ export default function Tripcatalogue() {
             <div className="flex items-center gap-2 mt-4">
               <div>
                 <NavLink to="/">
-                  <p className="text-[16px] text-secondColor">
-                    Home
-                  </p>
+                  <p className="text-[16px] text-secondColor">Home</p>
                 </NavLink>
               </div>
               <div className="text-[16px] text-secondColor flex items-center gap-2">
                 <span>
-                <FontAwesomeIcon
-                  icon={faLessThan}
-                />
+                  <FontAwesomeIcon icon={faLessThan} />
                 </span>{" "}
                 Trip Categories
               </div>
@@ -71,12 +59,12 @@ export default function Tripcatalogue() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center gap-10 gap-y-10 md:pl-10 my-20">
+      <div className="flex flex-col md:flex-row justify-center gap-10 gap-y-10 md:pl-10 my-16">
         <div className="md:w-[25%] rounded-md h-[120vh] shadow-2xl flex justify-center flex-col">
           <h1 className="font-bold px-12 my-5">S E A R C H</h1>
           <div className="flex flex-col justify-center items-center border-b">
             <form className="grid grid-rows-3">
-            <div className="flex gap-2 relative my-3">
+              <div className="flex gap-2 relative my-3">
                 <img
                   src="placeholder1.png"
                   alt=""
@@ -86,7 +74,7 @@ export default function Tripcatalogue() {
                   type="text"
                   name=""
                   id=""
-                  onChange={(e)=>setSearch(e.target.value)}
+                  onChange={(e) => setSearch(e.target.value)}
                   placeholder="Destination"
                   className="bg-gray-100 py-2 px-10 rounded-3xl"
                 />
@@ -102,7 +90,7 @@ export default function Tripcatalogue() {
                   name=""
                   id=""
                   placeholder="Activities"
-                  onChange={(e)=>setSearch(e.target.value)}
+                  onChange={(e) => setSearch(e.target.value)}
                   className="bg-gray-100 py-2 px-10 rounded-3xl"
                 />
               </div>
@@ -117,7 +105,7 @@ export default function Tripcatalogue() {
                   name=""
                   id=""
                   placeholder="Tour"
-                  onChange={(e)=>setSearch(e.target.value)}
+                  onChange={(e) => setSearch(e.target.value)}
                   className="bg-gray-100 py-2 px-10 rounded-3xl"
                 />
               </div>
@@ -132,23 +120,22 @@ export default function Tripcatalogue() {
               <form action="" className="w-full">
                 <input
                   type="range"
-                  className="w-full"
-                  id="priceRange"
-                  min="0"
-                  max="20000"
-                  value=""
-                  onChange=""
+                  value={search}
+                  min={0}
+                  max={200000}
+                  className="w-full text-bold"
+                  onChange={(e) => setSearch(e.target.value)}
                 />
-                  <div className="flex justify-between">
-                    <p>
-                      <FontAwesomeIcon icon={faNairaSign} /> 0
-                    </p>
-                    <p>
-                      <FontAwesomeIcon icon={faNairaSign} /> 1000000
-                    </p>
-                  </div>
-        </form>
-      </div>
+                <div className="flex justify-between">
+                  <p>
+                    <FontAwesomeIcon icon={faNairaSign} /> {0}
+                  </p>
+                  <p>
+                    <FontAwesomeIcon icon={faNairaSign} /> {2000000}
+                  </p>
+                </div>
+              </form>
+            </div>
           </div>
           <div className="flex justify-center flex-col pl-6">
             <h1 className="font-bold my-6">C A T E G O R I E S</h1>
@@ -212,8 +199,7 @@ export default function Tripcatalogue() {
                       onClick={() => filterItems("Wildlife & Safari")}
                     />
                     <p>
-                      <a href="">Wildlife & Safari
-                      </a>
+                      <a href="">Wildlife & Safari</a>
                     </p>
                   </div>
                   <button
@@ -229,41 +215,50 @@ export default function Tripcatalogue() {
           </div>
         </div>
 
-        <div className="md:w-[70%] items-center flex flex-col mb-16">
-            <div className="flex md:flex-row flex-col gap-7 items-center mb-5 ml-10">
-              <p className="font-semibold">Sort By:</p>
-              <button
-                className={`${
-                  sortType === 'price' ? 'bg-tertiaryColor' : 'bg-primaryColor'
-                } font-semibold px-5 py-1 rounded-3xl text-secondColor`}
-                onClick={() => handleSort('price')}
-              >
-                Price
-              </button>
-              <button
-                className={`${
-                  sortType === 'popularity' ? 'bg-tertiaryColor' : 'bg-primaryColor'
-                } px-5 py-1 font-semibold rounded-3xl text-secondColor`}
-                onClick={() => handleSort('popularity')}
-              >
-                Popularity
-              </button>
-              <button
-                className={`${
-                  sortType === 'alphabetical' ? 'bg-tertiaryColor' : 'bg-primaryColor'
-                } px-5 py-1 font-semibold rounded-3xl text-secondColor`}
-                onClick={() => handleSort('alphabetical')}
-              >
-                Alphabetical order
-              </button>
-            </div>
+        <div className="md:w-[70%] items-center flex flex-col mb-8">
+          <div className="flex md:flex-row flex-col gap-7 items-center mb-5 ml-10">
+            <p className="font-semibold">Sort By:</p>
+            <button
+              className={`${
+                sortType === "price" ? "bg-tertiaryColor" : "bg-primaryColor"
+              } font-semibold px-5 py-1 rounded-3xl text-secondColor`}
+              onClick={() => handleSort("price")}
+            >
+              Price
+            </button>
+            <button
+              className={`${
+                sortType === "popularity"
+                  ? "bg-tertiaryColor"
+                  : "bg-primaryColor"
+              } px-5 py-1 font-semibold rounded-3xl text-secondColor`}
+              onClick={() => handleSort("popularity")}
+            >
+              Popularity
+            </button>
+            <button
+              className={`${
+                sortType === "alphabetical"
+                  ? "bg-tertiaryColor"
+                  : "bg-primaryColor"
+              } px-5 py-1 font-semibold rounded-3xl text-secondColor`}
+              onClick={() => handleSort("alphabetical")}
+            >
+              Alphabetical order
+            </button>
+          </div>
           <div className="container grid md:grid-cols-3 gap-y-7 w-[90%] gap-8">
             {items
-              .filter((item) => 
-                search.toLowerCase() === "" || 
-                item.description.toLowerCase().includes(search.toLowerCase()) || 
-                item.Tour.toLowerCase().includes(search.toLowerCase()) || 
-                item.Activities.some(activity => activity.toLowerCase().includes(search.toLowerCase()))
+              .filter(
+                (item) =>
+                  search.toLowerCase() === "" ||
+                  item.description
+                    .toLowerCase()
+                    .includes(search.toLowerCase()) ||
+                  item.Tour.toLowerCase().includes(search.toLowerCase()) ||
+                  item.Activities.some((activity) =>
+                    activity.toLowerCase().includes(search.toLowerCase())
+                  )
               )
               .map((item, index) => (
                 <div key={index}>
@@ -278,11 +273,15 @@ export default function Tripcatalogue() {
                       <p className="font-semibold">Country: {item.Country}</p>
                       <div className="my-1">
                         <p className="font-semibold">
-                          Price: <FontAwesomeIcon icon={faNairaSign} />{item.price}
+                          Price: <FontAwesomeIcon icon={faNairaSign} />
+                          {item.price}
                         </p>
-                        <p className="font-semibold">Duration: {item.duration}</p>
+                        <p className="font-semibold">
+                          Duration: {item.duration}
+                        </p>
                       </div>
-                      <p className="font-semibold">Rating: 
+                      <p className="font-semibold">
+                        Rating:
                         {/* Consider using a dynamic rating component instead of hardcoded stars */}
                         ⭐⭐⭐
                       </p>

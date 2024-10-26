@@ -11,15 +11,7 @@ export default function Tour() {
         className="h-[60vh] bg-center bg-cover bg-no-repeat bg-fixed"
         style={{ backgroundImage: "url(testimony.png)" }}
       >
-        <header className="d-flex relative z-10">
-          <Navbar />
-          <div className="text-tertiaryColor text-3xl md:hidden open">
-            <i className="fa-solid fa-bars"></i>
-          </div>
-          <div className="text-tertiaryColor text-3xl hidden close">
-            <i className="fa-solid fa-x"></i>
-          </div>
-        </header>
+        <Navbar />
         <div className="flex flex-col justify-center items-center h-full">
           <div className="w-[80%] py-28">
             <h1 className="text-5xl font-semibold text-secondColor">
@@ -46,7 +38,7 @@ export default function Tour() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center px-10 gap-5 my-10">
+      <div className="flex flex-col md:flex-row items-center px-2 md:px-10 gap-5 my-10">
         <div className=" md:w-[50%] md:h-[100vh] rounded-s-full">
           <img
             src="feed-back.jpg"

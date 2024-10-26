@@ -268,18 +268,10 @@ function HomePageHeader() {
             </div>
             <div className="flex flex-col items-center justify-center mt-3">
               <form action="" className="w-full">
-                <input
-                  type="range"
-                  className="w-full"
-                  id="priceRange"
-                  min="0"
-                  max="20000"
-                  value=""
-                  onChange={(e)=>setSearch(e.target.value)}
-                />
+                  <input type="range" value={search}  min={0} max={200000}  className="w-full text-bold" onChange={(e)=>setSearch(e.target.value)}/>
                   <div className="flex justify-between">
                     <p>
-                      <FontAwesomeIcon icon={faNairaSign} /> 0
+                      <FontAwesomeIcon icon={faNairaSign}/> 0
                     </p>
                     <p>
                       <FontAwesomeIcon icon={faNairaSign} /> 100000

@@ -1,7 +1,5 @@
 import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 function Navbar() {
   const [isSticky, setIsSticky] = useState(false);
@@ -25,7 +23,7 @@ function Navbar() {
 
   return (
     <nav
-      className={`z-10 flex flex-col md:flex-row justify-between md:items-center h-20 px-8 w-11/12 fixed top-0 left-1/2 -translate-x-1/2 mx-auto ${
+      className={`z-10 flex flex-col md:flex-row md:justify-between justify-center md:items-center h-20 px-8 w-full fixed top-0 ${
         isSticky
           ? "w-full bg-white duration-300 ease-in-out"
           : "text-white"
@@ -39,16 +37,13 @@ function Navbar() {
             </h1>
           </div>
         </NavLink>
-        <FontAwesomeIcon
-          icon={faBars}
-          className={`md:hidden`}
-          onClick={() => setIsOpen((open) => !open)}
-        />
+
+        <p className="md:hidden text-3xl cursor-pointer flex text-bgBody" onClick={()=> setIsOpen((open) => !open)}>{isOpen ? <i className="fa-solid fa-x"></i>: <i className="fa-solid fa-bars"></i>}</p>
       </div>
       <ul
-        className={`md:flex gap-5 ${
-          isOpen ? "block gap-y-20 duration-300 ease-in text-center bg-black text-secondColor w-full" : "hidden"
-        }  font-bold`}
+        className={`md:flex gap-5 w-full py-5 md:py-0 absolute md:top-7 md:justify-end md:w-[94%] top-20 md:left-8 left-0 ${
+          isOpen ? "block duration-300 ease-in text-center bg-black text-secondColor w-full" : "hidden"
+        }  font-bold`} 
       >
         <li className="mb-5 md:mb-0  hover:text-primaryColor md:hover:border-b-2 md:hover:border-primaryColor">
           <NavLink to="/">Home</NavLink>
