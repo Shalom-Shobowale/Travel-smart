@@ -210,13 +210,13 @@ function HomePageHeader() {
 
       
       <div className="flex flex-col md:flex-row justify-center gap-10 gap-y-10 md:pl-10">
-        <div className="md:w-[25%] rounded-md h-[110vh] shadow-2xl flex justify-center flex-col">
+        <div className="md:w-[25%] rounded-md h-[120vh] shadow-2xl flex justify-center flex-col">
           <h1 className="font-bold px-12 my-5">S E A R C H</h1>
           <div className="flex flex-col justify-center items-center border-b">
             <form className="grid grid-rows-3">
             <div className="flex gap-2 relative my-3">
                 <img
-                  src="/image/placeholder1.png"
+                  src="placeholder1.png"
                   alt=""
                   className="absolute top-3 left-3"
                 />
@@ -231,7 +231,7 @@ function HomePageHeader() {
               </div>
               <div className="flex gap-2 relative my-3">
                 <img
-                  src="/image/placehold2.png"
+                  src="placehold2.png"
                   alt=""
                   className="absolute top-3 left-3"
                 />
@@ -246,7 +246,7 @@ function HomePageHeader() {
               </div>
               <div className="flex gap-2 relative my-3">
                 <img
-                  src="/image/placehold2.png"
+                  src="placehold2.png"
                   alt=""
                   className="absolute top-3 left-3"
                 />
@@ -275,7 +275,7 @@ function HomePageHeader() {
                   min="0"
                   max="20000"
                   value=""
-                  onChange=""
+                  onChange={(e)=>setSearch(e.target.value)}
                 />
                   <div className="flex justify-between">
                     <p>
@@ -305,7 +305,7 @@ function HomePageHeader() {
                       <a href="">History & Culture (776)</a>
                     </p>
                   </div>
-                  <div className="flex gap-3">
+                  <div className="flex gap-3 my-3">
                     <input
                       type="radio"
                       name="tour"
@@ -329,7 +329,7 @@ function HomePageHeader() {
                       <a href="">Adventure & Outdoor (74)</a>
                     </p>
                   </div>
-                  <div className="flex gap-3">
+                  <div className="flex gap-3 my-3">
                     <input
                       type="radio"
                       name="tour"
@@ -395,7 +395,7 @@ function HomePageHeader() {
                 Alphabetical order
               </button>
             </div>
-          <div className="container grid md:grid-cols-3 gap-y-7 w-[90%] gap-8">
+          <div className="container grid md:grid-cols-3 gap-y-7 w-[90%] gap-8 h-[140vh] overflow-y-scroll">
             {items
               .filter((item) => 
                 search.toLowerCase() === "" || 
@@ -434,7 +434,7 @@ function HomePageHeader() {
 
       <div
         className="px-5 bg-no-repeat bg-cover py-10 bg-fixed"
-        style={{ backgroundImage: "url(/image/landing.jpg)" }}
+        style={{ backgroundImage: "url(landing.jpg)" }}
       >
         <h1 className="text-4xl font-semibold text-center mb-5 text-secondColor">
           Why SunTravel

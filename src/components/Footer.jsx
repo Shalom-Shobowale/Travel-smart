@@ -60,7 +60,7 @@ function Footer() {
         </div>
       </div>
       <div className="md:w-[20%] text-secondColor">
-        <h1 className="font-semibold">Follow Us</h1>
+        <h1 className="font-bold">Follow Us</h1>
         <div className="flex gap-5 my-5">
           <div className="bg-gray-400 w-8 h-8 flex justify-center items-center">
             <FontAwesomeIcon icon={faFacebookF} />
