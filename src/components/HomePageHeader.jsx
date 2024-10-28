@@ -364,7 +364,7 @@ function HomePageHeader() {
         </div>
         <form
          action="https://formspree.io/f/xvgozwbr"
-  method="POST"
+          method="POST"
           className="my-10 p-6 bg-secondColor rounded-lg shadow-lg  md:w-[50%]"
         >
           <h2 className="text-3xl font-bold mb-4 text-center">
