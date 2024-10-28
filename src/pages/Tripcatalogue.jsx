@@ -61,7 +61,7 @@ export default function Tripcatalogue() {
 
       <div className="flex justify-center">
         <div className="flex flex-col md:flex-row justify-center md:gap-y-0 gap-y-10 my-12 w-[95%]">
-          <div className="md:w-[26%] rounded-md h-[110vh] md:h-[120vh] shadow-2xl flex justify-center flex-col">
+          <div className="md:w-[26%] rounded-md h-[90vh] md:h-[100vh] shadow-2xl flex justify-center flex-col">
             <h1 className="font-bold px-6 my-3 text-xl">Search</h1>
             <div className="flex flex-col justify-center px-6 border-b">
               <form className="grid grid-rows-3">
@@ -112,32 +112,6 @@ export default function Tripcatalogue() {
                 </div>
               </form>
             </div>
-            <div className="mx-6 py-6 border-b">
-              <div className="text-justify">
-                <h6 className="font-bold text-xl">Price Range</h6>
-                <p className="text-sm font-medium">Choose Your Price</p>
-              </div>
-              <div className="flex flex-col items-center justify-center mt-3">
-                <form action="" className="w-full">
-                  <input
-                    type="range"
-                    value={search}
-                    min={0}
-                    max={200000}
-                    className="w-full text-bold"
-                    onChange={(e) => setSearch(e.target.value)}
-                  />
-                  <div className="flex justify-between">
-                    <p>
-                      <FontAwesomeIcon icon={faNairaSign} /> {0}
-                    </p>
-                    <p>
-                      <FontAwesomeIcon icon={faNairaSign} /> {2000000}
-                    </p>
-                  </div>
-                </form>
-              </div>
-            </div>
             <div className="flex justify-center flex-col pl-6">
               <h1 className="font-bold my-6 text-xl">Categories</h1>
               <div className="font-medium">
@@ -152,7 +126,7 @@ export default function Tripcatalogue() {
                         onClick={() => filterItems("History & Culture")}
                       />
                       <p>
-                        <a href="">History & Culture (776)</a>
+                        <a href="">History & Culture </a>
                       </p>
                     </div>
                     <div className="flex gap-3 my-3">
@@ -164,7 +138,7 @@ export default function Tripcatalogue() {
                         onClick={() => filterItems("Luxury & Safari")}
                       />
                       <p>
-                        <a href="">Luxury & Safari (156)</a>
+                        <a href="">Luxury & Safari</a>
                       </p>
                     </div>
                     <div className="flex gap-3">
@@ -176,7 +150,7 @@ export default function Tripcatalogue() {
                         onClick={() => filterItems("Adventure & Outdoor")}
                       />
                       <p>
-                        <a href="">Adventure & Outdoor (74)</a>
+                        <a href="">Adventure & Outdoor</a>
                       </p>
                     </div>
                     <div className="flex gap-3 my-3">
@@ -245,7 +219,7 @@ export default function Tripcatalogue() {
                   </button>
             </div>
             <div className=" items-center md:items-end flex flex-col mb-8">
-              <div className="container grid md:grid-cols-3 gap-y-7 w-[90%] gap-8">
+              <div className="container grid md:grid-cols-3 gap-y-7 w-[92%] gap-8 md:overflow-y-scroll md:h-[120vh]">
                 {items
                   .filter(
                     (item) =>

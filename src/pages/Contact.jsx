@@ -90,18 +90,20 @@ export default function Contact() {
 
       <div className="flex justify-center gap-5 mb-14">
         <div className="md:w-[85%] flex md:flex-row flex-col gap-6">
-          <form action="https://formsubmit.co/523932e3b9d23c8a2ef0b4d76d9b1f5d "
-          method="POST" className="md:px-8 rounded-sm shadow-md w-full md:w-[65%] px-5 md:pb-0 pb-5">
+          <form  action="https://formspree.io/f/xpwzqyjp"
+  method="POST"
+          className="md:px-8 rounded-sm shadow-md w-full md:w-[65%] px-5 md:pb-0 pb-5">
             <div>
               <h1 className="mb-5 text-4xl font-semibold">Get In touch</h1>
               <div className="flex md:flex-row flex-col gap-5">
                 <input
+                name="name"
                   type="text"
                   placeholder="Name"
                   className="md:w-[50%] border-b border-2 focus:outline-none focus:ring-0 p-3"
                 />
                 <input
-                  type="tel"
+                  type="number"
                   name="number"
                   id="number "
                   placeholder="Number"
@@ -132,7 +134,7 @@ export default function Contact() {
                 Send Message
               </button>
               <p className="text-primaryColor hover:underline hover:text-red-600">
-                <a href="" className="md:text-base text-xl">Do you have a query?</a>
+              <NavLink to="/tour">Do you have a query?</NavLink>
               </p>
             </div>
           </form>

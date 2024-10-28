@@ -63,16 +63,16 @@ function Footer() {
         <h1 className="font-bold">Follow Us</h1>
         <div className="flex gap-5 my-5">
           <div className="bg-gray-400 w-8 h-8 flex justify-center items-center">
-            <FontAwesomeIcon icon={faFacebookF} />
+            <a href="https://www.facebook.com"><FontAwesomeIcon icon={faFacebookF} /></a>
           </div>
           <div className="bg-gray-400 w-8 h-8 flex justify-center items-center">
-            <FontAwesomeIcon icon={faTwitter} />
+            <a href="https://twitter.com"><FontAwesomeIcon icon={faTwitter} /></a>
           </div>
           <div className="bg-gray-400 w-8 h-8 flex justify-center items-center">
-            <FontAwesomeIcon icon={faYoutube} />
+            <a href="https://www.youtube.com"><FontAwesomeIcon icon={faYoutube} /></a>
           </div>
           <div className="bg-gray-400 w-8 h-8 flex justify-center items-center">
-            <FontAwesomeIcon icon={faLinkedin} />
+            <a href="https://www.linkedin.com"><FontAwesomeIcon icon={faLinkedin} /></a>
           </div>
         </div>
         <button className="bg-primaryColor py-2 px-5 text-secondColor font-medium rounded-2xl">

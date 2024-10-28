@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "name":"Tropical Beach Resort",
+        "image": "CopperCanyon,Chihuahua,Mexico.jpg",
+        "price": 30000,
+        "duration":"7 days",
+        "Rating":"⭐⭐⭐⭐⭐",
+        "sentenses1":"Nestled along the pristine coastline, Tropical Beach Resort is the ultimate destination for travelers seeking relaxation, adventure, and a taste of paradise. With its crystal-clear waters, white sandy beaches, and lush tropical gardens, this resort offers a unique blend of luxury and nature that caters to every kind of guest.",
+        "sentenses2":"Tropical Beach Resort is located in a picturesque setting, surrounded by swaying palm trees and vibrant flora. Situated on a secluded stretch of beach, it provides a tranquil escape from the hustle and bustle of everyday life. The resort is conveniently accessible from major airports, making it an ideal choice for both domestic and international visitors. Whether you arrive by plane or embark on a scenic drive, the journey to this paradise is a delightful experience in itself.",
+        "sentenses3":"The resort boasts a range of accommodations, from cozy beachfront bungalows to luxurious suites with breathtaking ocean views. Each room is thoughtfully designed to reflect the tropical ambiance, featuring modern amenities and comfortable furnishings. Guests can wake up to the sound of waves crashing and enjoy stunning sunsets from their private balconies. For those seeking a more exclusive experience, the resort offers villas with private pools, perfect for unwinding in complete privacy."
+    },
+    {
+        "id": 2,
+        "name":"Come icey Adventures",
+        "image": "australia-new-south-wales-sydney-bondi-beach.jpg",
+        "price": 50000,
+        "duration":"7 days",
+        "Rating":"⭐⭐⭐",
+        "sentenses1":"Nestled amidst the breathtaking landscapes of snow-capped mountains and glistening frozen lakes, Come Icey Adventures offers an unforgettable escape into a winter wonderland. This premier destination is designed for those who thrive on adventure, whether you're an adrenaline junkie, a nature lover, or someone simply looking to unwind in the serene beauty of winter.",
+        "sentenses2":"Come Icey Adventures is situated in a picturesque region known for its stunning natural beauty and diverse winter activities. Easily accessible from major cities, the location provides a perfect blend of convenience and seclusion. Surrounded by towering pine trees and dramatic mountain vistas, this resort promises an enchanting experience, whether you're visiting for a weekend or an extended stay.",
+        "sentenses3":"Guests at Come Icey Adventures can choose from a variety of accommodations tailored to suit different preferences and budgets. From cozy log cabins to luxurious lodges, each option offers a unique atmosphere and stunning views of the winter landscape. The cabins are equipped with modern amenities while still retaining a rustic charm, complete with fireplaces and warm, inviting interiors. For those seeking more luxury, the lodges offer elegant suites with private balconies, perfect for sipping hot cocoa while watching the snowflakes fall."
+    },
+    {
+        "id": 3,
+        "name":"Discover the hidden game",
+        "image": "asia-best-places-to-visit-mount-fuji-japan.jpg",
+        "price": 30000,
+        "duration":"9 days",
+        "Rating":"⭐⭐⭐⭐⭐",
+        "sentenses1":"Tucked away in an unassuming corner of the bustling city, Discover the Hidden Game is a unique attraction that invites adventurers and puzzle enthusiasts to immerse themselves in a world of mystery and intrigue. This interactive experience combines elements of escape rooms, scavenger hunts, and immersive storytelling, making it a must-visit destination for anyone looking to challenge their wits and embark on a thrilling adventure.",
+        "sentenses2":"Discover the Hidden Game is located in a discreet building that blends seamlessly with its surroundings. Upon arrival, visitors are greeted by an atmospheric entrance adorned with cryptic symbols and intriguing artwork that sets the tone for the adventure ahead. Inside, the space is meticulously designed to transport participants into a different realm, with dim lighting, thematic decor, and an overall ambiance that sparks curiosity and excitement.",
+        "sentenses3":""
+    },
+    {
+        "id": 4,
+        "name":"Nature meets culture",
+        "image": "asia-best-places-to-visit-jaipur-india.jpg",
+        "price": 30000,
+        "duration":"3 days",
+        "Rating":"⭐⭐",
+        "sentenses1":"Nature Meets Culture is a breathtaking destination where the serene beauty of the natural world intertwines seamlessly with the rich tapestry of local traditions and heritage. Situated in a picturesque setting, this unique location offers visitors an opportunity to explore lush landscapes while immersing themselves in the vibrant culture of the region. From stunning vistas to fascinating cultural experiences, Nature Meets Culture is the perfect getaway for those seeking both adventure and enrichment.",
+        "sentenses2":"Nestled between majestic mountains and verdant valleys, Nature Meets Culture is ideally located to showcase the best of both worlds. The surrounding area is adorned with diverse ecosystems, including dense forests, flowing rivers, and sprawling meadows, all of which provide a stunning backdrop for exploration. The region is easily accessible, making it a popular choice for both local and international travelers.",
+        "sentenses3":"The resort boasts a range of accommodations, from cozy beachfront bungalows to luxurious suites with breathtaking ocean views. Each room is thoughtfully designed to reflect the tropical ambiance, featuring modern amenities and comfortable furnishings. Guests can wake up to the sound of waves crashing and enjoy stunning sunsets from their private balconies. For those seeking a more exclusive experience, the resort offers villas with private pools, perfect for unwinding in complete privacy."
+    },
+    {
+        "id": 5,
+        "name":"Nature Paradise",
+        "image": "cape-town-south-africa.jpg",
+        "price": 30000,
+        "duration":"8 days",
+        "Rating":"⭐⭐⭐⭐",
+        "sentenses1":"Nature Paradise is a breathtaking destination that embodies the essence of untouched beauty, offering a sanctuary where the wonders of the natural world come alive. This idyllic location is characterized by its stunning landscapes, diverse ecosystems, and a commitment to preserving the environment, making it a perfect retreat for nature lovers, adventure seekers, and those looking to escape the hustle and bustle of everyday life.",
+        "sentenses2":"Nestled in a remote corner of the world, Nature Paradise is surrounded by majestic mountains, lush forests, and crystal-clear lakes. The pristine environment is easily accessible, yet far enough from urban development to provide a true sense of escape. The region’s climate varies with the seasons, allowing visitors to experience the unique beauty of nature year-round.",
+        "sentenses3":"The eco-friendly lodges at Nature Paradise blend seamlessly with the environment, featuring sustainable materials and energy-efficient designs. Each lodge is equipped with modern amenities while maintaining a rustic charm. Guests can enjoy spacious rooms with large windows that offer breathtaking views of the surrounding landscape, making it easy to connect with nature."
+    },
+    {
+        "id": 6,
+        "name":"Asia Tropical",
+        "image": "australia-victoria-melbourne.jpg",
+        "price": 30000,
+        "duration":"5 days",
+        "Rating":"⭐⭐",
+        "sentenses1":"Asia Tropical is a captivating destination that showcases the vibrant beauty and diverse ecosystems of Southeast Asia. Renowned for its lush rainforests, pristine beaches, and rich cultural heritage, this tropical paradise offers visitors an immersive experience filled with adventure, relaxation, and exploration. From stunning landscapes to unique wildlife, Asia Tropical is a haven for nature lovers and cultural enthusiasts alike.",
+        "sentenses2":"Asia Tropical is located in the heart of Southeast Asia, encompassing countries such as Indonesia, Malaysia, Thailand, the Philippines, and Vietnam.",
+        "sentenses3":"The resort boasts a range of accommodations, from cozy beachfront bungalows to luxurious suites with breathtaking ocean views. Each room is thoughtfully designed to reflect the tropical ambiance, featuring modern amenities and comfortable furnishings. Guests can wake up to the sound of waves crashing and enjoy stunning sunsets from their private balconies. For those seeking a more exclusive experience, the resort offers villas with private pools, perfect for unwinding in complete privacy."
+    }
+]

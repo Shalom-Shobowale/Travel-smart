@@ -22,3 +22,7 @@
     @apply bg-secondColor w-full fixed top-0;
   } */
 }
+
+::-webkit-scrollbar{
+  display: none;
+}

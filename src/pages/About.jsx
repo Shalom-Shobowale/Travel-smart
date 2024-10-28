@@ -166,10 +166,10 @@ export default function About() {
                 SunTravel, who founded it years ago.
               </p>
               <div className="flex gap-5 mb-4">
-                <i className="text-gray-300 fa-brands fa-facebook-f"></i>
-                <i className="text-gray-300 fa-brands fa-twitter"></i>
-                <i className="text-gray-300 fa-brands fa-youtube"></i>
-                <i className="text-gray-300 fa-brands fa-linkedin-in"></i>
+                <a href="https://www.facebook.com"><i className="text-gray-300 fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com"><i className="text-gray-300 fa-brands fa-twitter"></i></a>
+                <a href="https://www.youtube.com"><i className="text-gray-300 fa-brands fa-youtube"></i></a>
+                <a href="https://www.linkedin.com"><i className="text-gray-300 fa-brands fa-linkedin-in"></i></a>
               </div>
             </div>
           </div>
@@ -192,10 +192,10 @@ export default function About() {
                 quickly learned all the aspects of business travel.
               </p>
               <div className="flex gap-5 mb-4">
-                <i className="text-gray-300 fa-brands fa-facebook-f"></i>
-                <i className="text-gray-300 fa-brands fa-twitter"></i>
-                <i className="text-gray-300 fa-brands fa-youtube"></i>
-                <i className="text-gray-300 fa-brands fa-linkedin-in"></i>
+              <a href="https://www.facebook.com"><i className="text-gray-300 fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com"><i className="text-gray-300 fa-brands fa-twitter"></i></a>
+                <a href="https://www.youtube.com"><i className="text-gray-300 fa-brands fa-youtube"></i></a>
+                <a href="https://www.linkedin.com"><i className="text-gray-300 fa-brands fa-linkedin-in"></i></a>
               </div>
             </div>
           </div>
@@ -223,10 +223,10 @@ export default function About() {
                 booking industry.
               </p>
               <div className="flex gap-5 mb-4">
-                <i className="text-gray-300 fa-brands fa-facebook-f"></i>
-                <i className="text-gray-300 fa-brands fa-twitter"></i>
-                <i className="text-gray-300 fa-brands fa-youtube"></i>
-                <i className="text-gray-300 fa-brands fa-linkedin-in"></i>
+                <a href="https://www.facebook.com"><i className="text-gray-300 fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com"><i className="text-gray-300 fa-brands fa-twitter"></i></a>
+                <a href="https://www.youtube.com"><i className="text-gray-300 fa-brands fa-youtube"></i></a>
+                <a href="https://www.linkedin.com"><i className="text-gray-300 fa-brands fa-linkedin-in"></i></a>
               </div>
             </div>
           </div>

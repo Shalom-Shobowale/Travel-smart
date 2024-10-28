@@ -5,6 +5,8 @@ import Footer from "./Footer";
 import files from "../files.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faNairaSign } from "@fortawesome/free-solid-svg-icons";
+// import Cards from "./Cards";
+import Modal from "./Modal";
 
 function HomePageHeader() {
   const [items, setItems] = useState(files);
@@ -53,150 +55,7 @@ function HomePageHeader() {
           <h1 className="text-3xl font-semibold">Best Offers</h1>
           <p className="text-[#8e9aaf]">Check out our top-rated tours</p>
         </section>
-        <div className="Container grid md:grid-cols-3 gap-y-7 w-[90%] gap-6">
-          <div className="bg-secondColor rounded-md shadow-lg">
-            <div className="">
-              <img
-                src="CopperCanyon,Chihuahua,Mexico.jpg"
-                alt=""
-                className="rounded-t-md w-full"
-              />
-            </div>
-            <div className="px-4">
-              <h1 className="font-bold text-xl mt-5">Tropical Beach Resort</h1>
-              <div className="flex justify-between my-1">
-                <p className="font-semibold">
-                  Price: <i className="fa-solid fa-naira-sign"></i> 30000
-                </p>
-                <p className="font-semibold">Duration: 7 days</p>
-              </div>
-              <p className="font-semibold">Rating: ⭐⭐⭐⭐⭐</p>
-              <button className="bg-primaryColor text-secondColor font-semibold text-sm p-2 rounded-md my-2">
-                View Details
-              </button>
-            </div>
-          </div>
-
-          <div>
-            <div className="bg-secondColor rounded-md shadow-lg">
-              <div className="">
-                <img
-                  src="australia-new-south-wales-sydney-bondi-beach.jpg"
-                  alt=""
-                  className="rounded-t-md w-full"
-                />
-              </div>
-              <div className="px-4">
-                <h1 className="font-bold text-xl mt-5">Come icey Adventures</h1>
-                <div className="flex justify-between my-1">
-                  <p className="font-semibold">
-                    Price: <i className="fa-solid fa-naira-sign"></i> 50000
-                  </p>
-                  <p className="font-semibold">Duration: 7 days</p>
-                </div>
-                <p className="font-semibold">Rating: ⭐⭐⭐⭐</p>
-                <button className="bg-primaryColor text-secondColor font-semibold text-sm p-2 rounded-md my-2">
-                  View Details
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-secondColor rounded-md shadow-lg">
-            <div className="">
-              <img
-                src="asia-best-places-to-visit-mount-fuji-japan.jpg"
-                alt=""
-                className="rounded-t-md w-full"
-              />
-            </div>
-            <div className="px-4">
-              <h1 className="font-bold text-xl mt-5">
-                Discover the hidden game
-              </h1>
-              <div className="flex justify-between my-1">
-                <p className="font-semibold">
-                  Price: <i className="fa-solid fa-naira-sign"></i> 50000000
-                </p>
-                <p className="font-semibold">Duration: 7 days</p>
-              </div>
-              <p className="font-semibold">Rating: ⭐⭐⭐</p>
-              <button className="bg-primaryColor text-secondColor font-semibold text-sm p-2 rounded-md my-2">
-                View Details
-              </button>
-            </div>
-          </div>
-
-          <div className="bg-secondColor rounded-md shadow-lg">
-            <div className="">
-              <img
-                src="asia-best-places-to-visit-jaipur-india.jpg"
-                alt=""
-                className="rounded-t-md w-full"
-              />
-            </div>
-            <div className="px-4">
-              <h1 className="font-bold text-xl mt-5">Nature meets culture</h1>
-              <div className="flex justify-between my-1">
-                <p className="font-semibold">
-                  Price: <i className="fa-solid fa-naira-sign"></i> 90000
-                </p>
-                <p className="font-semibold">Duration: 6 days</p>
-              </div>
-              <p className="font-semibold">Rating: ⭐⭐</p>
-              <button className="bg-primaryColor text-secondColor font-semibold text-sm p-2 rounded-md my-2">
-                View Details
-              </button>
-            </div>
-          </div>
-
-          <div className="bg-secondColor rounded-md shadow-lg">
-            <div className="">
-              <img
-                src="cape-town-south-africa.jpg"
-                alt=""
-                className="rounded-t-md w-full"
-              />
-            </div>
-            <div className="px-4">
-              <h1 className="font-bold text-xl mt-5">Nature Paradise</h1>
-              <div className="flex justify-between my-1">
-                <p className="font-semibold">
-                  Price: <i className="fa-solid fa-naira-sign"></i> 200000
-                </p>
-                <p className="font-semibold">Duration: 4 days</p>
-              </div>
-              <p className="font-semibold">Rating: ⭐</p>
-              <button className="bg-primaryColor text-secondColor font-semibold text-sm p-2 rounded-md my-2">
-                View Details
-              </button>
-            </div>
-          </div>
-
-          <div className="bg-secondColor rounded-md shadow-lg">
-            <div className="">
-              <img
-                src="australia-victoria-melbourne.jpg"
-                alt=""
-                className="rounded-t-md w-full"
-              />
-            </div>
-            <div className="px-4">
-              <h1 className="font-bold text-xl mt-5">Asia Tropical</h1>
-              <div className="flex justify-between my-1">
-                <p className="font-semibold">
-                  Price: <i className="fa-solid fa-naira-sign"></i> 40000000
-                </p>
-                <p className="font-semibold">Duration: 7 days</p>
-              </div>
-              <p className="font-semibold">Rating: ⭐⭐⭐⭐⭐</p>
-              <button className="bg-primaryColor text-secondColor font-semibold text-sm p-2 rounded-md my-2">
-                View Details
-              </button>
-            </div>
-          </div>
-        </div>
-
+        <Modal />
         <NavLink to="/trip-catalogue">
           <button className="bg-primaryColor text-secondColor font-bold py-3 px-5 rounded-3xl text-sm mt-10">
             VIEW ALL TOUR
@@ -204,13 +63,13 @@ function HomePageHeader() {
         </NavLink>
       </div>
 
-      <h1 className="text-center text-4xl font-semibold md:mb-10">
+      <h1 className="text-center text-4xl font-semibold">
         All Tours For You
       </h1>
 
       <div className="flex justify-center">
-        <div className="flex flex-col md:flex-row justify-center md:gap-y-0 gap-y-10 my-12 w-[95%]">
-          <div className="md:w-[26%] rounded-md h-[110vh] md:h-[120vh] shadow-2xl flex justify-center flex-col">
+        <div className="flex flex-col md:flex-row justify-center md:gap-y-0 gap-y-10 my-10 w-[95%]">
+          <div className="md:w-[26%] rounded-md h-[90vh] md:h-[100vh] shadow-2xl flex justify-center flex-col">
             <h1 className="font-bold px-6 my-3 text-xl">Search</h1>
             <div className="flex flex-col justify-center px-6 border-b">
               <form className="grid grid-rows-3">
@@ -261,32 +120,6 @@ function HomePageHeader() {
                 </div>
               </form>
             </div>
-            <div className="mx-6 py-6 border-b">
-              <div className="text-justify">
-                <h6 className="font-bold text-xl">Price Range</h6>
-                <p className="text-sm font-medium">Choose Your Price</p>
-              </div>
-              <div className="flex flex-col items-center justify-center mt-3">
-                <form action="" className="w-full">
-                  <input
-                    type="range"
-                    value={search}
-                    min={0}
-                    max={200000}
-                    className="w-full text-bold"
-                    onChange={(e) => setSearch(e.target.value)}
-                  />
-                  <div className="flex justify-between">
-                    <p>
-                      <FontAwesomeIcon icon={faNairaSign} /> {0}
-                    </p>
-                    <p>
-                      <FontAwesomeIcon icon={faNairaSign} /> {2000000}
-                    </p>
-                  </div>
-                </form>
-              </div>
-            </div>
             <div className="flex justify-center flex-col pl-6">
               <h1 className="font-bold my-6 text-xl">Categories</h1>
               <div className="font-medium">
@@ -301,7 +134,7 @@ function HomePageHeader() {
                         onClick={() => filterItems("History & Culture")}
                       />
                       <p>
-                        <a href="">History & Culture (776)</a>
+                        <a href="">History & Culture</a>
                       </p>
                     </div>
                     <div className="flex gap-3 my-3">
@@ -313,7 +146,7 @@ function HomePageHeader() {
                         onClick={() => filterItems("Luxury & Safari")}
                       />
                       <p>
-                        <a href="">Luxury & Safari (156)</a>
+                        <a href="">Luxury & Safari </a>
                       </p>
                     </div>
                     <div className="flex gap-3">
@@ -325,7 +158,7 @@ function HomePageHeader() {
                         onClick={() => filterItems("Adventure & Outdoor")}
                       />
                       <p>
-                        <a href="">Adventure & Outdoor (74)</a>
+                        <a href="">Adventure & Outdoor</a>
                       </p>
                     </div>
                     <div className="flex gap-3 my-3">
@@ -394,7 +227,7 @@ function HomePageHeader() {
                   </button>
             </div>
             <div className=" items-center md:items-end flex flex-col mb-8">
-              <div className="container grid md:grid-cols-3 gap-y-7 w-[90%] gap-8">
+              <div className="container grid md:grid-cols-3 gap-y-7 w-[92%] md:overflow-y-scroll md:h-[120vh] gap-8">
                 {items
                   .filter(
                     (item) =>
@@ -530,8 +363,8 @@ function HomePageHeader() {
           <img src="antartica.jpeg" alt="" className="md:h-full rounded-2xl" />
         </div>
         <form
-          action="https://formsubmit.co/523932e3b9d23c8a2ef0b4d76d9b1f5d "
-          method="POST"
+         action="https://formspree.io/f/xvgozwbr"
+  method="POST"
           className="my-10 p-6 bg-secondColor rounded-lg shadow-lg  md:w-[50%]"
         >
           <h2 className="text-3xl font-bold mb-4 text-center">
